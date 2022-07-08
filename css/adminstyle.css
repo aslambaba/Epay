@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap');
+body{
+	overflow-x: hidden;
+}
+.header{
+	width: 100%;
+	background-color: #839AA8;
+	text-align: center;
+	color: white;
+	padding: 20px 0px;
+	font-family: 'Titillium Web', sans-serif;
+}
+.HeaderHeading > h2{
+	margin: 0px;
+}
+.HeaderMenu {
+	text-align: right;
+}
+.HeaderMenu > ul > li {
+	text-decoration: none;
+	display: inline;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+.HeaderMenu > ul > li > a{
+	text-decoration: none;
+	color: white;
+}
+.AdminMenu > ul li > a{
+	text-decoration: none;
+	color: white;
+}
+.hig{
+    height: 100%;
+}
+.AdminMenu {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #839AA8;
+}
+.AdminMenu ul {
+    list-style-type: none;
+}
+.AdminMenu ul li {
+    text-decoration: none;
+    margin: 10px 0px;
+	font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    color: white;
+    padding: 10px 10px;
+}
+.AddNewBill {
+	padding: 10px 20px;
+}
+.AddNewBill input, .AddNewBill select{
+	padding: 8px 10px;
+	width: 100%;
+	margin: 10px 0px;
+}
+.submitBtn {
+	width: 100%;
+	text-align: center;
+}
+.submitBtn  button {
+	padding: 8px 40px;
+	font-family: 'Bebas Neue', cursive;
+}
+.FooterSec{
+	text-align: right;
+	padding: 20px 30px;
+    background-color: #839AA8;
+	font-family: 'Bebas Neue', cursive;
+}
+.FooterSec > button {
+	width: 20%;
+}

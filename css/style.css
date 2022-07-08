@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap');
+body{
+	overflow-x: hidden;
+}
+.header{
+	width: 100%;
+	background-color: #839AA8;
+	text-align: center;
+	color: white;
+	padding: 20px 0px;
+	font-family: 'Titillium Web', sans-serif;
+}
+.HeaderHeading > h2{
+	margin: 0px;
+}
+.HeaderMenu {
+	text-align: right;
+}
+.HeaderMenu > ul > li {
+	text-decoration: none;
+	display: inline;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+.HeaderMenu > ul > li > a{
+	text-decoration: none;
+	color: white;
+}
+.HeaderButton > button{
+	margin: 0px;
+	padding: 0px;
+	width: 30%;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 3px;
+}
+.banner{
+	height: 500px;
+	width: 100%;
+	background-image: url('../images/bills.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bannerText{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px 30px;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+}
+.bannerText > h2 {
+	font-size: 4rem;
+}
+.bannerText button {
+	width: 20%;
+	padding: 15px 0px;
+	font-size: 1.8rem;
+	background-color: #635666;
+	color: white;
+}
+.ProductHeading{
+	width: 100%;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	margin: 50px 0px;
+}
+.ProductHeading > h2{
+	font-size: 64px;
+	font-family: 'Titillium Web', sans-serif;
+}
+.MainBillSec {
+	padding: 10px 20px;
+}
+.CheckBillForm{
+	text-align: center;
+	padding: 30px 0px;
+	margin-bottom: 60px;
+}
+.CheckBillForm input{
+	width: 50%;
+	padding: 15px 20px;
+	font-size: 18px;
+	text-transform: uppercase;
+	border-radius: 3px;
+}
+.CheckBillForm button {
+	background-color: #635666;
+	width: 20%;
+	font-size: 18px;
+	padding: 15px 20px;
+	color: white;
+}
+.contactSec{
+	padding: 20px 20px;
+	box-shadow: 0 0 1em gray;	
+	background-color: #839AA8;
+	color: white;
+}
+.contactImg{
+	border-radius: 3px;
+	background-image: url("../images/ride.jpg");
+	width: 100%;
+	height: 400px;
+	background-size: contain;
+	margin-top: 20px;
+	background-repeat: no-repeat;
+}
+.contactForm{
+	display: flex;
+	margin-top: 20px;
+	flex-direction: column;	
+}
+.ContactInfo {
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ContactInfo h3{
+	color: #635666;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+.contactForm > input:hover, .contactForm > textarea:hover{}
+.contactForm > input, button, textarea {
+	padding: 15px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	width: 100%;
+	border-radius: 3px;
+	background-color: white;
+	color: black;
+	margin: 5px 0px;
+}
+.FooterSec{
+	text-align: right;
+	padding: 20px 30px;
+	font-family: 'Bebas Neue', cursive;
+}
+.FooterSec > button {
+	width: 20%;
+}
+
+/* Single BILL Styling */
+
+.MainBillSheet {
+	margin: 20px 0px;
+}
+.MainBillSheet table{
+	width: 100%;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+}
+.MainBillSheet table th, .MainBillSheet td{
+	padding: 15px 10px;
+	border: 1px solid black;
+}
+.MainBillSheet table th{
+	color: white;
+	background-color: #63566686;
+}
+.MeterImage{
+	width: 400px !important;
+	height: 130px !important;
+}
